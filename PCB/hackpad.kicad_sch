@@ -2054,6 +2054,12 @@
 		(uuid "4afdf758-e2dd-44cb-a78c-8bbbc6ac93a1")
 	)
 	(junction
+		(at 175.26 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76903457-259b-416d-910f-77186665367a")
+	)
+	(junction
 		(at 154.94 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2070,6 +2076,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0d15f63-5986-4a03-aa54-8a2408a4d9e6")
+	)
+	(junction
+		(at 175.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e223da00-815b-45d6-a475-512c866e2939")
 	)
 	(wire
 		(pts
@@ -2113,6 +2125,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 35.56) (xy 195.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fe1d637-7aec-40e0-9988-6d643ad0e097")
+	)
+	(wire
+		(pts
 			(xy 134.62 35.56) (xy 144.78 35.56)
 		)
 		(stroke
@@ -2143,6 +2165,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 50.8) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65556a1-534d-43b9-b9c1-f7ab6f45d881")
+	)
+	(wire
+		(pts
 			(xy 114.3 50.8) (xy 134.62 50.8)
 		)
 		(stroke
@@ -2160,6 +2192,16 @@
 			(type default)
 		)
 		(uuid "ad26f18d-d5cf-4d29-aefd-391ba16c8fef")
+	)
+	(wire
+		(pts
+			(xy 182.88 43.18) (xy 187.96 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06b5a8a-d718-4d0b-aca9-32235705f18d")
 	)
 	(wire
 		(pts
@@ -2691,7 +2733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "Custom:Rotary_EncoderRotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_custom"
 			(at 229.87 139.446 0)
 			(effects
 				(font
@@ -2768,7 +2810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Custom:cherry_mx_1.00u_pcb_custom"
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -2836,7 +2878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Custom:cherry_mx_1.00u_pcb_custom"
 			(at 233.68 69.85 0)
 			(effects
 				(font
@@ -3542,7 +3584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Custom:cherry_mx_1.00u_pcb_custom"
 			(at 233.68 110.49 0)
 			(effects
 				(font
@@ -3610,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Custom:cherry_mx_1.00u_pcb_custom"
 			(at 233.68 83.82 0)
 			(effects
 				(font
@@ -3745,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+		(property "Footprint" "Custom:cherry_mx_1.00u_pcb_custom"
 			(at 233.68 97.79 0)
 			(effects
 				(font
@@ -3949,7 +3991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "Custom:MX_SK6812MINI-E_REV(1)"
 			(at 176.53 50.8 0)
 			(effects
 				(font
@@ -4098,7 +4140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "Custom:MX_SK6812MINI-E_REV(1)"
 			(at 115.57 50.8 0)
 			(effects
 				(font
@@ -4284,6 +4326,84 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812MINI")
+		(at 195.58 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e88658d7-568d-4e58-8904-40e86b583c02")
+		(property "Reference" "D5"
+			(at 208.28 36.7598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SK6812MINI"
+			(at 208.28 39.2998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Custom:MX_SK6812MINI-E_REV(1)"
+			(at 196.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+			(at 198.12 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 195.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aad60c50-cfa9-4023-b703-660675afa7e3")
+		)
+		(pin "4"
+			(uuid "3eb478ef-826e-43ae-a2aa-f3b488ee7c2b")
+		)
+		(pin "3"
+			(uuid "6c0b1b3c-1c26-44db-813c-33d0fe14ba05")
+		)
+		(pin "2"
+			(uuid "bf166bbf-249d-4ce3-bdd2-a73f5dd0403a")
+		)
+		(instances
+			(project "hackpad"
+				(path "/3efa313a-c978-4e87-bae9-dd1e3a1b5bbc"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:SK6812MINI")
 		(at 154.94 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4310,7 +4430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "Custom:MX_SK6812MINI-E_REV(1)"
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -4387,7 +4507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "Custom:MX_SK6812MINI-E_REV(1)"
 			(at 135.89 50.8 0)
 			(effects
 				(font

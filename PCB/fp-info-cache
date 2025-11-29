@@ -1,4 +1,4 @@
-25630844729051840
+25636162596757242
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57141,12 +57141,33 @@ ceramic
 3
 3
 Custom
+MX_SK6812MINI-E_REV(1)
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+Custom
+Rotary_EncoderRotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_custom
+
+
+0
+7
+6
+Custom
 SSD1306-0.91-OLED-4pin-128x32
 
 
 0
 4
 4
+Custom
+cherry_mx_1.00u_pcb_custom
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
