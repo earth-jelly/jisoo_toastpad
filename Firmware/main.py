@@ -43,10 +43,6 @@ def start_led(color):
 
 start_led((237, 205, 116))
 
-keyboard.keymap = [
-    [KC.MPRV, KC.MPLY, KC.MNXT, KC.MRWD, KC.FFWD]
-]
-
 media_state = {
     "is_playing": False,
     "side_icon": "♪",
@@ -58,18 +54,16 @@ def render_oled():
     else:
         "⏸"
 
-    line2 = f'{media_state["side_icon"]} ⏮ {playing_icon} ⏭'
-    oled.display_text(line2)
+    line = f'{media_state["side_icon"]} ⏮ {playing_icon} ⏭'
+    oled.display_text(line)
 
-def media_action(control):
-    if control == "playpause":
-        media_state["is_playing"] != media_state["is_playing"]
-    # You could change side_icon based on actions (e.g., volume, next, etc.)
-    # elif kind == "next":
-    #     media_state["side_icon"] = "⏭"
-    # etc.
-
+def media_action():
+    media_state["is_playing"] = not media_state["is_playing"]
     render_oled()
+
+keyboard.keymap = [
+    [KC.MPRV, KC.Macro(Press(KC.MPLY), on_press=media_action), KC.MNXT, KC.MRWD, KC.FFWD]
+]
 
 if __name__ == '__main__':
     keyboard.go()
