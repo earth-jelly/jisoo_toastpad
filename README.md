@@ -40,14 +40,16 @@ Toastpad uses KMK firmware to operate.
 It currently supports media pause & play, fast forward & backward, skipping to next/prev. track, volume control, and displaying music streaming service inpired icons!
 
 ---
-#### Final disclaimer
+### Final disclaimer
 The Toastpad is as flimsy as a wet toast and operates on hopes and dreams.
+
 Do __*NOT*__:
   - expect it to work on the first try
   - blame me for any malfunctions (because I already warned you)
   - try to eat it
 
 Thank you :>
+
 
 
 
