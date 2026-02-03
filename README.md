@@ -4,19 +4,25 @@
 ## Overview
 My personal macropad designed for all sound stuff I could think of right now: pause/play, fast forward/backward, next/prev. track, audio info display, and volume control! 
 
-<img width="984" height="872" alt="image" src="https://github.com/user-attachments/assets/be2ec402-6d1d-4726-8ddf-a0e8f2c64225" />
+<img width="906" height="639" alt="image" src="https://github.com/user-attachments/assets/65414220-c1a4-4ebd-a270-02b7618a740c" />
+<img width="891" height="647" alt="image" src="https://github.com/user-attachments/assets/0a098679-de85-464c-bfc4-519026c96d11" />
 
-<img width="1056" height="862" alt="image" src="https://github.com/user-attachments/assets/fee4fff9-1b78-4675-8998-b1eba8989b02" />
+### BOM
+| QUANTITY | ITEM |
+|---|---|
+| 1x | Seeed XIAO RP2040 |
+| 5x | MX-Style switches |
+| 1x | EC11 Rotary encoders |
+| 1x | 0.91 inch OLED displays |
+| 5x | Blank DSA keycaps |
+| 5x | MX-Style switches |
+| 5x | MINI-E LEDs |
+| 5x | MX-Style switches |
 
 ---
-
-So far, I have finished routing the PCB and finished original designs for the silkscreen layer for maximum circus aesthetic. 
-Additonal info on silkscreen art: all of the animals and characters listed on the board was favorite animals/characters of different hackclubbers on 11/22-11/23 lock-in calls!
-
-I also have started (and struggled a lot with) the CAD! For right now, my theme probably will be toast/bread + Heidi (bc I absolutely love her <33)
-
-I hope you like it!
-
+## Schemetics & PCB
+<img width="1031" height="722" alt="image" src="https://github.com/user-attachments/assets/2eab8d7b-7a8d-4a2b-b197-d7a240d1a53b" />
+<img width="866" height="802" alt="image" src="https://github.com/user-attachments/assets/7af2edba-5f04-402d-9b31-404f4187593d" />
 
 
 
