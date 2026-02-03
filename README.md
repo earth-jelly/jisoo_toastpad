@@ -2,7 +2,7 @@
 *"Because I couldn't cad a croissant."*
 
 ## Overview
-My personal macropad designed for all sound stuff I could think of right now: pause/play, fast forward/backward, next/prev. track, audio info display, and volume control! 
+My personal macropad designed for all sound stuff that I need on a daily basis, inspired by Heidi, Orpheus, and toast.
 
 <img width="906" height="639" alt="image" src="https://github.com/user-attachments/assets/65414220-c1a4-4ebd-a270-02b7618a740c" />
 <img width="891" height="647" alt="image" src="https://github.com/user-attachments/assets/0a098679-de85-464c-bfc4-519026c96d11" />
@@ -47,3 +47,4 @@ Do __*NOT*__:
   - try to eat it
 
 Thank you :>
+
