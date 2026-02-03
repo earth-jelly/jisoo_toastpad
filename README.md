@@ -30,7 +30,8 @@ My personal macropad designed for all sound stuff that I need on a daily basis, 
 ### PCB
 <img width="866" height="802" alt="image" src="https://github.com/user-attachments/assets/7af2edba-5f04-402d-9b31-404f4187593d" />
 <img width="984" height="872" alt="Screenshot 2025-11-23 230139" src="https://github.com/user-attachments/assets/3dd89dce-c2c3-47bc-a702-6a3c98dfbd14" />
-<img width="1056" height="862" alt="Screenshot 2025-11-23 230220" src="https://github.com/user-attachments/assets/d571ada6-73f4-45aa-a53f-6689d3f1b34a" />
+<img width="910" height="841" alt="image" src="https://github.com/user-attachments/assets/1edd1b65-5f84-4bb1-95fa-7483b0594680" />
+
 The silkscreen art on the back was created during 2 days of Blueprint Prototype lock-in call, combining favorite animals/creatures of the Hackclubbers in the call.
 
 ---
@@ -47,4 +48,5 @@ Do __*NOT*__:
   - try to eat it
 
 Thank you :>
+
 
