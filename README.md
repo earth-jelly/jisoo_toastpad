@@ -37,7 +37,7 @@ The silkscreen art on the back was created during 2 days of Blueprint Prototype 
 ---
 ### Firmware
 Toastpad uses KMK firmware to operate. 
-It currently supports media pause & play, fast forward & backward, skip to the next/prev. track, volume control, and display music streaming service inpired icons!
+It currently supports media pause & play, fast forward & backward, skipping to next/prev. track, volume control, and displaying music streaming service inpired icons!
 
 ---
 #### Final disclaimer
@@ -48,5 +48,6 @@ Do __*NOT*__:
   - try to eat it
 
 Thank you :>
+
 
 
